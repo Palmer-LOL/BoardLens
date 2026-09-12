@@ -1,0 +1,30 @@
+<resources>
+    <style name="AppTheme" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">@color/ember_orange</item>
+        <item name="android:colorBackground">@color/charcoal</item>
+        <item name="android:colorBackgroundFloating">@color/charcoal</item>
+        <item name="android:colorForeground">@color/warm_ivory</item>
+        <item name="android:textColorPrimary">@color/warm_ivory</item>
+        <item name="android:textColorSecondary">@color/warm_stone</item>
+        <item name="android:textColorHint">@color/warm_stone</item>
+        <item name="android:textColorAlertDialogListItem">@color/warm_ivory</item>
+        <item name="android:textColorLink">@color/ember_orange</item>
+        <item name="android:colorControlNormal">@color/warm_stone</item>
+        <item name="android:colorControlActivated">@color/ember_orange</item>
+        <item name="android:colorButtonNormal">@color/graphite</item>
+        <item name="android:alertDialogTheme">@style/BoardLensDialogTheme</item>
+        <item name="android:listDivider">@color/graphite</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">@color/charcoal</item>
+        <item name="android:navigationBarColor">@color/charcoal</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowBackground">@color/charcoal</item>
+    </style>
+    <style name="BoardLensDialogTheme" parent="android:style/ThemeOverlay.Material.Dialog.Alert">
+        <item name="android:windowTitleStyle">@style/BoardLensDialogTitle</item>
+    </style>
+    <style name="BoardLensDialogTitle" parent="android:style/TextAppearance.Material.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>
